@@ -1,21 +1,18 @@
+"use client";
+
+import NavbarItems from "@/public/assets/scripts/navbar";
+import { usePathname } from "next/navigation";
+import Logo from "./Logo";
+
 const Navbar = () => {
+    const pathname = usePathname();
     return (
         <header className="sticky top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm">
-            <nav className="mt-4 relative max-w-2xl w-full bg-white border border-gray-200 rounded-full mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-4 md:mx-auto dark:bg-neutral-900 dark:border-neutral-700">
+            <nav className="mt-4 relative max-w-2xl w-full bg-white border border-gray-200 rounded-3xl md:rounded-full mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-4 md:mx-auto dark:bg-neutral-900 dark:border-neutral-700">
                 <div className="px-4 md:px-0 flex justify-between items-center">
                     <div className="flex items-center">
                         {/* Logo */}
-                        <a
-                            className="flex-none rounded-md text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80"
-                            href="../templates/personal/index.html"
-                            aria-label="Preline"
-                        >
-                            <img
-                                src="assets/img/logo.png"
-                                alt="Logo"
-                                className="h-8 w-auto rounded-full"
-                            />
-                        </a>
+                        <Logo />
                         {/* End Logo */}
 
                         <div className="ms-1 sm:ms-2"></div>
@@ -74,31 +71,21 @@ const Navbar = () => {
                     aria-labelledby="hs-navbar-header-floating-collapse"
                 >
                     <div className="flex flex-col md:flex-row md:items-center md:justify-end gap-2 md:gap-3 mt-3 md:mt-0 py-2 md:py-0 md:ps-7">
-                        <a
-                            className="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-gray-800 font-medium text-gray-800 focus:outline-hidden dark:border-neutral-200 dark:text-neutral-200"
-                            href="#"
-                            aria-current="page"
-                        >
-                            Home
-                        </a>
-                        <a
-                            className="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200"
-                            href="#"
-                        >
-                            Projects
-                        </a>
-                        <a
-                            className="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200"
-                            href="#"
-                        >
-                            Work
-                        </a>
-                        <a
-                            className="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200"
-                            href="#"
-                        >
-                            Articles
-                        </a>
+                        {NavbarItems.map((item, index) => {
+                            return (
+                                <a
+                                    key={index}
+                                    href={item.link}
+                                    className={`py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200 ${
+                                        pathname === item.link
+                                            ? ""
+                                            : "border-transparent"
+                                    }`}
+                                >
+                                    {item.name}
+                                </a>
+                            );
+                        })}
                     </div>
                 </div>
             </nav>

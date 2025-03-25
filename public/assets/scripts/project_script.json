@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Form Management",
+        "img": "/assets/projects/project1.jpeg",
+        "link": "https://final-project-vilv.vercel.app/lobby"
+    },
+    {
+        "title": "Media Synergy",
+        "img": "/assets/projects/project2.png",
+        "link": "https://media-synergy-mockui.netlify.app/src/"
+    },
+    {
+        "title": "Moo Market",
+        "img": "/assets/projects/project3.png",
+        "link": "https://mock-ui-for-isd-project-3-2.netlify.app/"
+    },
+    {
+        "title": "Bandhan",
+        "img": "/assets/projects/project4.png",
+        "link": "https://bandhan99.vercel.app/"
+    }
+]

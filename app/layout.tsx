@@ -19,6 +19,7 @@ export const metadata: Metadata = {
 
 import PrelineScriptWrapper from "./components/PrelineScriptWrapper";
 import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function RootLayout({
     children,
@@ -32,6 +33,7 @@ export default function RootLayout({
             >
                 <Navbar />
                 {children}
+                <Footer />
             </body>
             <PrelineScriptWrapper />
         </html>
