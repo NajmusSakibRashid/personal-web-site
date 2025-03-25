@@ -1,0 +1,78 @@
+[
+    {
+        "title": "Languages",
+        "skills": ["Bangla", "English"]
+    },
+    {
+        "title": "Programming Languages",
+        "skills": ["C#", "JavaScript", "C++", "Java", "Python"]
+    },
+    {
+        "title": "Python Libraries",
+        "skills": [
+            "PyTorch",
+            "Keras",
+            "TensorFlow",
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Scikit-learn"
+        ]
+    },
+    {
+        "title": "Frameworks",
+        "skills": [
+            "ASP.NET",
+            ".NET Core",
+            "MVC",
+            "Express.js",
+            "React.js",
+            "Next.js",
+            "Node.js",
+            "TailwindCSS",
+            "Bootstrap",
+            "SASS",
+            "jQuery",
+            "Ajax"
+        ]
+    },
+    {
+        "title": "Cloud/Databases",
+        "skills": ["MySQL", "MongoDB", "SQL", "MSSQL"]
+    },
+    {
+        "title": "Designing Tools",
+        "skills": ["Photoshop", "Illustrator", "Figma", "AutoCAD"]
+    },
+    {
+        "title": "Office Skills",
+        "skills": ["MS Excel", "MS PowerPoint", "Typing (50 WPM average)"]
+    },
+    {
+        "title": "Soft Skills",
+        "skills": ["Communication", "Collaboration", "Leadership"]
+    },
+    {
+        "title": "Coursework",
+        "skills": [
+            "Cyber Security",
+            "Computer Graphics",
+            "Data Structures and Algorithms",
+            "Database",
+            "Object Oriented Programming",
+            "Software Engineering"
+        ]
+    },
+    {
+        "title": "Miscellaneous",
+        "skills": ["Git", "LATEX(Overleaf)", "Docker"]
+    },
+    {
+        "title": "Areas of Interest",
+        "skills": [
+            "Machine Learning",
+            "Deep Learning",
+            "Artificial Intelligence"
+        ]
+    }
+]

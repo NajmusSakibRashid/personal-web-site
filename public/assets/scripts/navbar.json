@@ -8,6 +8,10 @@
         "link": "/about"
     },
     {
+        "name": "Projects",
+        "link": "/projects"
+    },
+    {
         "name": "Services",
         "link": "/services"
     },
