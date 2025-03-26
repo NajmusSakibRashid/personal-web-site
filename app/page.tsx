@@ -1,6 +1,7 @@
 import Profile from "@/app/components/Profile.jsx";
 import Projects from "@/app/components/Projects.jsx";
 import Skills from "@/app/components/Skills.jsx";
+import Education from "@/app/components/Education.jsx";
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
             <Profile />
             <Projects />
             <Skills />
+            <Education />
         </div>
     );
 }

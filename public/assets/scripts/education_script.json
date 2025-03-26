@@ -1,0 +1,16 @@
+[
+    {
+        "session": "18",
+        "degree": "Higher Secondary School Certificate",
+        "institute": "Dhaka Residential Model College",
+        "grade": "5 out of 5",
+        "logo": "/assets/img/DRMC_LOGO.png"
+    },
+    {
+        "session": "22-23",
+        "degree": "Bachelor of Science in Computer Science and Engineering",
+        "institute": "Bangladesh University of Engineering and Technology",
+        "grade": "3.26 out of 4",
+        "logo": "/assets/img/BUET_LOGO.png"
+    }
+]
