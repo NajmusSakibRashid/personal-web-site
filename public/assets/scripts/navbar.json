@@ -18,5 +18,9 @@
     {
         "name": "Contact",
         "link": "/contact"
+    },
+    {
+        "name": "Certifications",
+        "link": "/certifications"
     }
 ]

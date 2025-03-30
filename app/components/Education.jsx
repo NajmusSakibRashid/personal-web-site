@@ -7,7 +7,7 @@ const Education = () => {
             <div className="mt-16 flex justify-start md:w-1/2 text-2xl font-semibold text-gray-800">
                 My Education
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 md:w-1/2 gap-x-16 mt-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:w-1/2 gap-16 m-4">
                 {Educations.map((education, index) => (
                     <div
                         key={index}

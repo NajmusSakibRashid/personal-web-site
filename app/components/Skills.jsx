@@ -7,7 +7,7 @@ const Skills = () => {
             <div className="mt-16 flex justify-start md:w-1/2 text-2xl font-semibold text-gray-800">
                 My Skills
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-[auto_auto] md:w-1/2 gap-x-16">
+            <div className="grid grid-cols-1 md:grid-cols-[auto_auto] md:w-1/2 gap-x-16 m-4">
                 {SkillFormat.map((skill, index) => (
                     <React.Fragment key={index}>
                         <div className="text-sm font-medium text-gray-700 mt-2">
