@@ -54,12 +54,12 @@ async function LinkPreview({ url }) {
         <Link
             href={url}
             target="_blank"
-            className="text-black  w-[50%] h-[200px] cursor-pointer flex items-center bg-[#f3f3f3] gap-3 text-left border-white border-[2px]"
+            className="text-black w-full md:w-[50%] min-h-[200px] cursor-pointer flex flex-col md:flex-row items-center bg-[#f3f3f3] gap-3 text-left border-white border-[2px]"
             style={{
                 textDecoration: "none",
             }}
         >
-            <div className="object-cover h-full">
+            <div className="w-full md:w-auto md:h-full">
                 <img
                     src={
                         data.image ||
@@ -67,14 +67,14 @@ async function LinkPreview({ url }) {
                             data.title
                     }
                     alt="Link Preview"
-                    className="object-cover h-full w-[340px] m-0"
+                    className="object-cover w-full md:w-[340px] h-[200px] m-0"
                 />
             </div>
-            <div className="p-4 w-[60%]">
-                <h3 className="text-3xl font-bold leading-[2rem] mb-2 ">
+            <div className="p-4 w-full md:w-[60%]">
+                <h3 className="text-xl md:text-3xl font-bold leading-tight md:leading-[2rem] mb-2">
                     {data.title}
                 </h3>
-                <p className="text-base  line-clamp-3 mb-2 ">
+                <p className="text-sm md:text-base line-clamp-3 mb-2">
                     {data.description}
                 </p>
                 <span className="mt-3 opacity-50 text-xs">&nbsp;{url}</span>

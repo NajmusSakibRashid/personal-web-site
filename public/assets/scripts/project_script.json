@@ -18,5 +18,15 @@
         "title": "Bandhan",
         "img": "/assets/projects/project4.png",
         "link": "https://bandhan99.vercel.app/"
+    },
+    {
+        "title": "Sample Frontend 1",
+        "img": "/assets/projects/project5.png",
+        "link": "https://task-4-seven-delta.vercel.app/"
+    },
+    {
+        "title": "Sample Frontend 2",
+        "img": "/assets/projects/project6.png",
+        "link": "https://task-5-mu-snowy.vercel.app/"
     }
 ]

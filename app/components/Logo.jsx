@@ -6,8 +6,8 @@ const Logo = () => {
     return (
         <a
             className="flex-none rounded-md text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80"
-            href="../templates/personal/index.html"
-            aria-label="Preline"
+            href="/"
+            aria-label="Homepage"
         >
             <Image
                 src={logoSrc}
