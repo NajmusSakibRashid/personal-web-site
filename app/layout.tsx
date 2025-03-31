@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         siteName: "Najmus Sakib Rashid Portfolio",
         images: [
             {
-                url: "https://najmus-sakib-rashid-99.vercel.app/website-preview-image.svg",
+                url: "https://najmus-sakib-rashid-99.vercel.app/preview-image.png",
                 width: 1200,
                 height: 630,
             },
@@ -42,9 +42,7 @@ export const metadata: Metadata = {
         title: "Najmus Sakib Rashid - Software Engineer & Developer",
         description:
             "Personal portfolio website showcasing skills, projects, and professional experience in software development.",
-        images: [
-            "https://najmus-sakib-rashid-99.vercel.app/website-preview-image.svg",
-        ],
+        images: ["https://najmus-sakib-rashid-99.vercel.app/preview-image.png"],
     },
 };
 
