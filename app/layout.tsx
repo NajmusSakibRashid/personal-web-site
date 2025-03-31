@@ -24,7 +24,7 @@ export const metadata = {
         siteName: "Najmus Sakib Rashid Portfolio",
         images: [
             {
-                url: "https://najmus-sakib-rashid-99.vercel.app/website-preview-image.svg",
+                url: "https://najmus-sakib-rashid-99.vercel.app/preview-image.png",
                 width: 1200,
                 height: 630,
             },
