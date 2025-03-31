@@ -1,5 +1,3 @@
-"use client";
-
 const Carousel = ({ images }) => {
     return (
         <div className="w-full bg-white rounded-lg shadow-md dark:bg-neutral-800">
@@ -20,18 +18,16 @@ const Carousel = ({ images }) => {
                                 <div className="flex justify-center h-full w-full bg-gray-100 p-6 dark:bg-neutral-900">
                                     <div className="relative w-full h-full">
                                         {/* Loading spinner */}
-                                        <div className="absolute inset-0 flex items-center justify-center">
+                                        {/* <div
+                                            className="absolute inset-0 flex items-center justify-center"
+                                            id={index}
+                                        >
                                             <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-300 border-t-blue-600"></div>
-                                        </div>
+                                        </div> */}
                                         <img
                                             src={image.src}
                                             alt={image.alt}
                                             className="w-full h-full object-contain"
-                                            onLoad={(e) => {
-                                                e.target.parentElement.querySelector(
-                                                    "div"
-                                                ).style.display = "none";
-                                            }}
                                         />
                                     </div>
                                 </div>
